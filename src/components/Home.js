@@ -37,21 +37,27 @@ export const Home = () =>{
                 <div className="fiber-img1"></div>
              </div>
          </div>
-         <div className="healthy-fat">
-             <div className="healthy-block1">
-                <div className="healthy-txt">
-                    <p>While fat is often the first thing that gets cut when you’re trying to slim down, healthy fats can actually help you reach your weight loss goals.</p>
+           <div className="health">
+                 
+                <div className="health-b">
+
+                      <div className="health-b1">
+                          <h1>Healthy Fats </h1>
+                      <p>While fat is often the first thing that gets cut when you’re trying to slim down, healthy fats can actually help you reach your weight loss goals.</p>
+                      <p>In fact, following a high-fat diet that’s rich in foods like olive oil, avocados and nuts has been shown to maximize weight loss in several studies</p>
+                       </div>
+                      <div className="health-b2">
+                      
+                    </div>
+                     
+   
+
                 </div>
-             </div>
-             <div className="healthy-block2">
-                 <h1>Make Room for Healthy Fat</h1>
-             </div>
-             <div className="healthy-block3">
-             <div className="healthy-txt">
-                    <p>In fact, following a high-fat diet that’s rich in foods like olive oil, avocados and nuts has been shown to maximize weight loss in several studies</p>
-                </div>
-             </div>
-         </div>
+
+
+
+
+           </div>
          <div className="protein">
              <div className="protein-box">
                  <h1>Have a Protein-Rich Breakfast</h1>
