@@ -608,7 +608,7 @@ span {
   border: 10px solid black;
 }
 .img-c {
-  background-image: url(./components/map.png);
+  background-image: url(./components/mail.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -626,7 +626,7 @@ span {
   margin-left: 30%;
 }
 .img-a {
-  background-image: url(./components/mail.png);
+  background-image: url(./components/map.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
