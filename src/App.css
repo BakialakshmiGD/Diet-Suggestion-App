@@ -1,0 +1,741 @@
+.home
+{
+  background-color: rgba(236, 236, 206, 0.753);
+  width: 80%;
+  height: 700px;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+.home-bg
+{
+  width: 1100px;
+  
+}
+
+.htxt>h2
+{
+  font-size: 60px;
+  text-align: center;
+ padding: 30px;
+ margin-left: 150px;
+ line-height: 80px;
+
+}
+span
+{
+  color: rgb(55, 117, 55);
+  font-size: 70px;
+  font-weight: bolder;
+  
+}
+
+.hbreak
+{
+  padding: 10px;
+  background-color: green;
+  margin: 30px;
+  width: 500px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 2px 2px 2px 5px rgb(186, 236, 109);
+  
+  margin-left: 60px;
+}
+.hbreak>p
+{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.hpic
+{
+  background-image: url(./components/PinClipart.com_graph-clipart_1782320.png);
+  width: 200px;
+  height: 150px;
+  background-position: center;
+  background-position: 100%;
+  background-size: cover;
+
+}
+.hpic
+{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+}
+.hpic1
+{
+  background-image: url(./components/pngwing.com.png);
+  width: 550px;
+  height: 750px;
+  background-position: center;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+
+}
+.hbreak:hover
+{
+  border: 5px solid green;
+  cursor: pointer;
+  background-color: greenyellow;
+  box-shadow: 2px 2px 2px 5px rgb(46, 104, 46);
+  
+}
+.hbreak>p:hover{
+  color: black;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+  list-style: none;
+  padding: 0;
+}
+
+.slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.slide span {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  background: rgba(141, 174, 224, 0.5);
+  text-align: center;
+}
+.fiber
+{
+  display: flex;
+  margin-top: 9%;
+}
+.fiber-box1
+{
+  background-color: rgba(236, 236, 206, 0.753);
+  height: 100vh;
+  width: 100vh;
+  text-align: right;
+}
+.fiber-box1 h1
+{
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  padding: 10px;
+  margin-top: 20%;
+}
+.fiber-box1 p
+{
+  font-size: 24px;
+  width: 450px;
+  text-align: center;
+  float: right;
+  line-height: 40px;
+  padding: 20px;
+}
+.fiber-box2
+{
+  background-color: rgb(182, 223, 72);
+  height: 100vh;
+  width: 100vh;
+}
+.fiber-box2 h1
+{
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  padding: 10px;
+  color: white;
+  margin-top: 20%;
+}
+.fiber-box2 p
+{
+  font-size: 24px;
+  width: 450px;
+  text-align: center;
+  float: left;
+  line-height: 40px;
+  padding: 20px;
+  color: white;
+}
+.fiber-img
+{
+  background-image: url(./components/nohat-kpng-1560139714.png);
+  width: 350px;
+  height: 300px;
+  background-position: center;
+  background-size:100% 100% ;
+}
+.fiber-img1
+{
+  background-image: url(./components/nohat-kpng-1560139714.png);
+  width: 350px;
+  height: 300px;
+  background-position: center;
+  background-size:100% 100% ;
+  margin-left: 52%;
+  margin-top:2% ;
+}
+.healthy-fat
+{
+  display: flex;
+  margin-top: 20px;
+}
+.healthy-block1
+{
+  background-image: url(./components/img16_man-eating.jpg);
+  background-position: center;
+  background-size:100% 100% ;
+  width: 700px;
+  height: 80vh;
+
+}
+.healthy-block2
+{
+  background-color:rgba(236, 236, 206, 0.753);
+  width: 200px;
+  height: 80vh;
+  text-shadow:2px 2px 2px rgb(46, 45, 45);
+ 
+}
+.healthy-block2 h1
+{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  margin-top: 100%;
+  color: black;
+  
+}
+.healthy-block3
+{
+  background-image: url(./components/img7_diet_pouring_nuts.jpg);
+  background-position: center;
+  background-size:100% 100% ;
+  width: 700px;
+  height: 80vh;
+  
+}
+.healthy-txt
+{
+  background-color: rgba(0, 0, 0, 0.883);
+  width: 700px;
+  height: 100px;
+  margin-top: 92%;
+  margin-left: 0%;
+  
+}
+
+.healthy-txt p
+{
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 35px;
+  
+}
+.protein
+{
+  
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+}
+.protein-box
+{
+  background-color: rgb(235, 238, 39);
+  width: 750px;
+  height: 100px;
+  position:absolute;
+  margin-top: 10%;
+}
+.protein-pic1
+{
+  background-image: url(./components/healthy-breakfast-with-oatmeal-and-eggs-morning-royalty-free-image-1572449267.jpg);
+  background-position: center;
+  background-size:100% 100% ;
+  width: 300px;
+  height: 450px;
+  margin-left: 3%;
+  margin-top: 15%;
+ 
+}
+.protein-pic2
+{
+  background-image: url(./components/Fill-Up-High-Fiber-High-Volume-Foods.jpg);
+  background-position: center;
+  background-size:100% 100% ;
+  width: 300px;
+  height: 450px;
+  margin-left: 3%;
+  margin-top: 15%;
+  
+}
+.protein-pic
+{
+  display: flex;
+}
+.protein-box h1
+{
+  text-align: center;
+  color: black;
+  margin-top: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+.protein-txt
+{
+  width: 700px;
+  height: 350px;
+  background-color: rgb(235, 238, 39);
+  margin-left: 8%;
+  margin-top: 16%;
+  border-radius: 20px 20px 20px 20px;
+}
+.protein-txt p
+{
+  padding: 8px;
+  font-size: 20px;
+  width: 600px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.lift
+{
+  background-image: url(./components/lift.jpg);
+  background-position: center;
+  background-size:100% 100% ;
+  width: 100%;
+  height: 100vh;
+  
+}
+.lift h1
+{
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 70px;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+}
+.lift-block
+{
+  background-color: rgba(12, 12, 12, 0.842);
+  width: 260px;
+  height: 330px;
+  margin-top: 10px;
+  padding: 10px;
+  
+}
+.lift-block1
+{
+  display: flex;
+  margin-left: 23%;
+  margin-top: 5%;
+}
+.lift-b
+{
+  margin-left: 20px;
+  
+}
+.lift-block p
+{
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+.lift-block2
+{
+  background-color: rgba(255, 255, 255, 0.89);
+  width: 260px;
+  height: 330px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.lift-block2 p
+{
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  
+}
+.diets
+{
+  margin-top: 30px;
+  background-color: gray;
+  width: 100%;
+  height: 90vh;
+  
+}
+.fad
+{
+  background-color: red;
+  width: 800px;
+  height: 200px;
+  margin-left: 20%;
+}
+.fad-piz
+{
+  background-image: url(./components/pizza.jpg);
+  background-position: center;
+  background-size:100% 100% ;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left:5% ;
+  
+
+}
+.fad-box
+{
+  background-color: rgb(251, 251, 251);
+  position: absolute;
+  margin-top: 4%;
+  margin-left: 38%;
+  width: 500px;
+  height: 500px;
+}
+.fad-box h1
+{
+  text-align: center;
+  padding: 10px;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.fad-box p
+{
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.veg
+{
+  background-color: rgb(171, 214, 106);
+  width: 100%;
+  height: 90vh;
+  margin-top: 30px;
+}
+.veg-out1
+{
+  background-image: url(./components/vegout.jpg);
+  background-position: center;
+  background-size:100% 100% ;
+  width: 400px;
+  height: 650px;
+  margin-left: 20%;
+  position: absolute;
+  margin-top: 2%;
+}
+.veg-out
+{
+  display: flex;
+  
+}
+.veg-out h1
+{
+  margin-top: 18%;
+  margin-left: 2%;
+  font-size: 70px;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  color: rgb(10, 10, 10);
+}
+.text-veg
+{
+  margin-left: 33%;
+  width: 700px;
+  margin-top: 8%;
+  
+  
+}
+.text-veg p
+{
+  font-size: 21px;
+  
+}
+.veg-img
+{
+  background-image: url(./components/vegout2.jpg);
+  background-position: center;
+  background-size:100% 100% ;
+  width: 310px;
+  height: 220px;
+  margin-top: 5%;
+}
+.workout
+{
+  background-image: url(./components/ex.jpg);
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-size:100% 100% ;
+}
+.workout-1
+{
+  width: 500px;
+  height: 640px;
+  border: 3px solid black;
+  color: black;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+.workout-1 h1
+{
+  padding: 10px;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+.workout-1 p
+{
+  padding: 15px;
+  font-size: 20px;
+}
+.about
+{
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  width: 100%;
+  height: 50vh;
+}
+.about-x
+{
+  text-align: center;
+  color: rgb(8, 8, 8);
+  
+}
+.about-x h1
+{
+  padding: 20px;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+.about-x p
+{
+  font-size: 18px;
+}
+.about-block
+{
+  display: flex;
+}
+.about-box
+{
+  background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+  padding: 10px;
+  
+  height: 400px;
+  margin-left: 9%;
+}
+.about-box1
+{
+  padding: 10px;
+  
+}
+.about-img
+{
+  background-image: url(./components/food1.jpg);
+  width: 200px;
+  height: 190px;
+  background-position: center;
+  background-size:100% 100%  ;
+  border-radius: 50%;
+  margin-left: 10%;
+
+}
+.about-txt
+{
+  width: 300px;
+  height: 400px;
+}
+.about-txt h1
+{
+   padding: 10px;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+.about-txt p
+{
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.about-img1
+{
+  background-image: url(./components/workoutt.jpg);
+  width: 200px;
+  height: 190px;
+  background-position: center;
+  background-size:100% 100%  ;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+.about-img2{
+  background-image: url(./components/healthytip.jpg);
+  width: 200px;
+  height: 190px;
+  background-position: center;
+  background-size:100% 100%  ;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+.about-last
+{
+  display: flex;
+  margin-top: 6%;
+}
+.about-1
+{
+  background-image: url(./components/about1.jpg);
+  width: 100%;
+  height: 530px;
+  background-position: center;
+  background-size:100% 100%  ;
+  
+ 
+}
+.about-2
+{
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  width: 150%;
+  padding: 20px;
+}
+.about-2 h1
+{
+  text-align: center;
+  font-size: 50px;
+  width: 700px;
+  margin-left: 10%;
+  font-family: 'Times New Roman', Times, serif;
+} 
+.about-2 p
+{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 3%;
+}
+.contact
+
+{
+  background-image: url(./components/bgc.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100% 100%  ;
+  display: flex;
+
+}
+.box 
+{
+  position: absolute;
+  background-color: white;
+  width: 250px;
+  height: 200px;
+  margin-left: 30%;
+  margin-top: 18%;
+  border-radius: 20px 20px 20px 20px;
+  border: 10px solid black;
+}
+.box1
+{
+  position: absolute;
+  background-color: black;
+  width: 250px;
+  height: 200px;
+  margin-left: 50%;
+  margin-top: 18%;
+  border-radius: 20px 20px 20px 20px;
+  border: 10px solid white;
+}
+.box1 h1
+{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 2px;
+}
+.box2 h1
+{
+  font-size: 30px;
+  text-align: center;
+  padding: 2px;
+}
+.box h1
+{
+  font-size: 30px;
+  text-align: center;
+  padding: 2px;
+}
+.box p
+{
+  text-align: center;
+  padding: 2px;
+  font-size: 20px;
+}
+.box2 p
+{
+  text-align: center;
+  padding: 2px;
+  font-size: 20px;
+}
+.box1 p{
+  text-align: center;
+  padding: 2px;
+  font-size: 20px;
+  color: white;
+}
+.box2{
+  position: absolute;
+  background-color: white;
+  width: 250px;
+  height: 200px;
+  margin-left: 70%;
+  margin-top: 18%;
+  border-radius: 20px 20px 20px 20px;
+  border: 10px solid black;
+}
+.img-c
+{
+  background-image: url(./components/pngwing.com\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100% 100%  ;
+  width: 50px;
+  height: 50px;
+  margin-left: 35%;
+
+}
+.img-b
+{
+  background-image: url(./components/pngwing.com\ \(4\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100% 100%  ;
+  width: 100px;
+  height: 70px;
+  margin-left: 30%;
+}
+.img-a
+{
+  background-image: url(./components/pngwing.com\ \(3\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100% 100%  ;
+  width: 50px;
+  height: 50px;
+  margin-left: 35%;
+}
